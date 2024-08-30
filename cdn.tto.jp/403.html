@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403 Forbidden | TTo.jp</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* 戻るコンテンツ用　*/
+
+.back a {
+  color: #ffffff;
+}
+
+.back span:hover {
+  text-decoration: underline;
+}
+/* 戻るコンテンツ用　*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>403 Forbidden</h1>
+        <p>許可されていないURLにアクセスしました。</p>
+        <p>お探しのページは表示が許可されていないため、閲覧することができません。        </p>
+        <p>下のボタンを押して前のページへお戻りください。</p>
+<button class="back" style="text-align:center"><a href="#" onClick="history.back(); return false;" style="text-decoration:none;">
+<span>前のページにもどる</span>
+</a></button>
+    </div>
+</body>
+</html>
