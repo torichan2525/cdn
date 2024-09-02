@@ -1,0 +1,10 @@
+/* 戻るコンテンツ用　*/
+
+.back a {
+    color: #000000;
+  }
+  
+  .back span:hover {
+    text-decoration: underline;
+  }
+  /* 戻るコンテンツ用　*/
