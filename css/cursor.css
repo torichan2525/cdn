@@ -5,7 +5,7 @@
         cursor: url(//cdn.tto.jp/img/mouse-normal.webp), auto;
     }
 
-      a,span,button,div,input:hover {
+      a,span,button,div,input {
     cursor: url(//cdn.tto.jp/img/mouse-link.webp), auto;
     /* cursor: url(https://cdn.tto.jp/img/cursor-hiyoko-futi1.png),auto; */
   }
