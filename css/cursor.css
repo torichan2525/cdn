@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+    html,body {
+        cursor: url(//cdn.tto.jp/img/mouse-normal.webp), auto;
+    }
+
+      a{
+    cursor: url(//cdn.tto.jp/img/mouse-link.webp), auto;
+    /* cursor: url(https://cdn.tto.jp/img/cursor-hiyoko-futi1.png),auto; */
+  }
