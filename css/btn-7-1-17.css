@@ -77,6 +77,6 @@
 }
 
 /*hover時に色を変更*/   
-.btnlinestretches4:hover span::after {
+.btn03:hover span::after {
 	color: white;
 }
