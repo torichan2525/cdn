@@ -78,5 +78,5 @@
 
 /*hover時に色を変更*/   
 .btn03:hover span::after {
-	color: white;
+	color: #fff;
 }
