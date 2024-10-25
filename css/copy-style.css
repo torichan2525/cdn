@@ -1,0 +1,26 @@
+
+  
+  .wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #button-copy {
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.1em;
+    background: #dfcdcd;
+    color: #4b3e14;
+    border: 2px solid #fff;
+    font-weight: 600;
+    padding: 1em 2em;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+  }
+  
+  #button-copy:hover {
+    border-color: #29376a;
+  }
+  
